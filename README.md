@@ -74,7 +74,7 @@ intersectionObserver.observe($observe);
 ### Primer problema
 
 1. Analiza la API: fakeapi.platzi.com
-2. Implementa la API de productos iniciando en el producto 5 y obteniendo los siguientes 10 productos.
+2. Implementa la API de productos iniciando en el producto s 10 productos.
 3. Guarda en localStorage la posición inicial ("pagination") y actualízala en cada petición nueva para traer los siguientes productos.
 4. Crear la lógica para implementar un scroll infinito con Intersection Observer.
 

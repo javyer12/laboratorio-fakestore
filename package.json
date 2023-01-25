@@ -1,6 +1,6 @@
 {
   "name": "laboratorio-fakestore",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "FakeStore",
   "main": "index.js",
   "scripts": {
@@ -11,17 +11,26 @@
     "type": "git",
     "url": "git+https://github.com/platzi/laboratorio-fakestore.git"
   },
-  "keywords": [],
-  "author": "Oscar Barajas <oscar@platzi.com>",
+  "keywords": ["javascript, store, api, DOM, webpack"],
+  "author": "Frank",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/platzi/laboratorio-fakestore/issues"
   },
   "homepage": "https://github.com/platzi/laboratorio-fakestore#readme",
   "devDependencies": {
-    "live-server": "^1.1.0"
+    "css-loader": "^6.7.3",
+    "live-server": "^1.1.0",
+    "html-loader": "3.1.0",
+    "html-webpack-plugin": "5.5.0",
+    "mini-css-extract-plugin": "2.6.0",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.10.0",
+    "file-loader": "6.2.0",
+    "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
     "cypress": "^10.2.0"
-  }
+  },
+  "type": "module"
 }
